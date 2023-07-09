@@ -1,0 +1,219 @@
+body{
+    background-color: black;
+    color: white;
+}
+.header_area.main-menu.navbar.navbar-brand{
+    padding: 0px 2rem 0 5rem;
+
+}
+.header_area.main-menu.navbar.navbar.navbar-nav{
+    padding: 0% 10%;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+a.nav-link{
+    color: white;
+    font-size: 20px;
+}
+p{
+    padding-top: 190px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+h1{
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    color: red;
+    font-weight: 800;
+}
+.Timeline{
+    position: relative;
+    max-width: 700px;
+    margin: 150px auto;
+}
+.container{
+    padding: 40px 30px;
+    position: relative;
+    width: 50%;
+    
+    
+    
+}
+.text-box{
+    padding: 1px 1px;
+    
+    color: white;
+    margin-left: -300%;
+    position: relative;
+    border-radius: 0%;
+    width: 300px;
+    height: 100px;
+    font-size: 15px;
+    margin-top: 40%;
+
+}
+.left-container{
+    text-align: center;
+    
+    padding-right:100 px;
+    left: 40%;
+    font-size: 10px;
+    margin-top: -10%;
+    padding-top: -10%;
+    
+
+}
+.right-container{
+    text-align: center;
+    padding-right:100px;
+    left: 65%;
+    padding-top: -10%;
+    margin-top: -10%;
+    font-size: 10px;
+}
+.container img{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    left: 105%;
+    top: 30px;
+    animation: movedown 0s linear forwards;
+    opacity: 0;
+}
+@keyframes movedown {
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    
+}
+
+.container:nth-child(2){
+    animation-delay: 1s;
+}
+.container.left-container:nth-child(3){
+    animation-delay: 2s;
+}
+.right-container img{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    left: -70px;
+    top: 30px;
+}
+.Timeline::after{
+    margin-top: 20%;
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 50%;
+    background: red;
+    top: 20px;
+    left: -20%;
+    margin-left: 90px;
+    z-index: -1;
+    animation: moveline 6s linear forwards;
+
+}
+
+@keyframes moveline {
+    0%{height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+}
+.text-box small{
+    display: inline-block;
+    margin-bottom: auto;
+    
+}
+.text-box h2{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+}
+.text-box p{
+    padding-top: 0px;
+    font-size: 18px;
+    text-align: center;
+}
+.About{
+    margin-left: 0%;
+}
+.left-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid white;
+    left: 300px;
+}
+.right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid white;
+    right: 300px;
+}
+.footer {
+    background-color: #f8f8f8;
+    padding: 200px;
+    padding-right: 100px;
+    text-align: center;
+    margin-right: 1000px;
+  }
+
+  .contact-details {
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-details img {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    margin-right: 1px; /* Adjust the spacing as needed */
+    padding-right: -10px;
+  }
+  .projects{
+    align-content: center;
+    margin-left: -60%;
+    padding-top: -1000px;
+    margin-top: -100%;
+
+  }
+  .Railway{
+    margin-left: 70%;
+    /* margin-top: -57%; */
+
+  }
+  .para{
+    font-size: 20px;
+    padding-right: 50;
+    margin-right: 30%;
+    margin-top: -25%;
+  }
