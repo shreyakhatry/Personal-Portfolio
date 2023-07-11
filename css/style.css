@@ -119,7 +119,7 @@ span{
     content: '';
     position: absolute;
     width: 6px;
-    height: 50%;
+    height: 30%;
     background: red;
     top: 20px;
     left: -20%;
@@ -133,7 +133,7 @@ span{
     0%{height: 0;
     }
     100%{
-        height: 100%;
+        height: 90%;
     }
 }
 .text-box small{
@@ -180,6 +180,8 @@ span{
 .footer {
     background-color: #f8f8f8;
     padding: 200px;
+    margin-top: 800px;
+    padding-top: 80%;
     padding-right: 100px;
     text-align: center;
     margin-right: 1000px;
@@ -216,4 +218,7 @@ span{
     padding-right: 50;
     margin-right: 30%;
     margin-top: -25%;
+  }
+  .main{
+    margin-left: 50%;
   }
